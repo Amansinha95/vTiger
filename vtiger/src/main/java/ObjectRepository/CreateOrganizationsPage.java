@@ -17,6 +17,8 @@ private WebElement typeDropDownList;
 
 @FindBy(xpath = "//input[@class='crmbutton small save']")
 private WebElement saveButton;
+@FindBy(id = "dtlview_Organization Name")
+private WebElement organizationFieldName;
 
 public CreateOrganizationsPage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
@@ -36,6 +38,10 @@ public WebElement getTypeDropDownList() {
 
 public WebElement getSaveButton() {
 	return saveButton;
+}
+
+public WebElement getOrganizationFieldName() {
+	return organizationFieldName;
 }
 
 }

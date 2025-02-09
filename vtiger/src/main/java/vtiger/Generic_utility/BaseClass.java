@@ -20,6 +20,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+import ObjectRepository.CreateOrganizationsPage;
 import ObjectRepository.HomePage;
 import ObjectRepository.LoginPage;
 import ObjectRepository.OrganizationPage;
@@ -35,6 +36,7 @@ public class BaseClass {
 	public static LoginPage lp;
 	public static HomePage hp;
 	public static OrganizationPage op;
+	public static CreateOrganizationsPage cop;
 	public static  ExtentTest test;
 	
 	@BeforeSuite
