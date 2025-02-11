@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.organization.TC_VT_001Test">
+      <class name="com.vtiger.leads.TC_VT_001Test">
         <methods>
           <include name="logout"/>
-          <include name="clickOnOrganization"/>
+          <include name="createLeads"/>
           <include name="reportBackup"/>
           <include name="closeBrowser"/>
           <include name="login"/>
           <include name="reportConfigure"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.vtiger.organization.TC_VT_001Test -->
+      </class> <!-- com.vtiger.leads.TC_VT_001Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

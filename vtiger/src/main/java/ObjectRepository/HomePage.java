@@ -17,6 +17,10 @@ private WebElement signoutLink;
 
 @FindBy(linkText = "Organizations")
 private WebElement organizationsLink;
+
+@FindBy(linkText = "Leads")
+private WebElement leadsLink;
+
 public HomePage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
@@ -35,6 +39,10 @@ public WebElement getSignoutLink() {
 
 public WebElement getOrganizationsLink() {
 	return organizationsLink;
+}
+
+public WebElement getLeadsLink() {
+	return leadsLink;
 }
 
 }
